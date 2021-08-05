@@ -15,14 +15,14 @@
         android:icon="@mipmap/ic_launcher">
 
         <meta-data
-          android:name="com.alibaba.app.appkey"
-          android:value="" /> <!-- 请填写你自己的- appKey -->
+            android:name="com.alibaba.app.appkey"
+            android:value="@string/alibaba_app_appkey" /> <!-- 请填写你自己的- appKey -->
         <meta-data
-          android:name="com.alibaba.app.appsecret"
-          android:value="" /> <!-- 请填写你自己的appSecret -->
+            android:name="com.alibaba.app.appsecret"
+            android:value="@string/alibaba_app_appsecret" /> <!-- 请填写你自己的appSecret -->
         <meta-data
           android:name="com.huawei.hms.client.appid"
-          android:value="" />
+          android:value="@string/huawei_appId" />
         <meta-data
           android:name="com.xiaomi.push.client.app_id"
           android:value=""/>
@@ -41,12 +41,15 @@
         <meta-data
           android:name="com.meizu.push.client.app_key"
           android:value="" />
+
         <meta-data
-          android:name="com.vivo.push.app_id"
-          android:value="" />
+            android:name="com.vivo.push.app_id"
+            android:value="@string/vivo_appId" />
         <meta-data
-          android:name="com.vivo.push.api_key"
-          android:value="" />
+            android:name="com.vivo.push.api_key"
+            android:value="@string/vivo_appKey" />
+
+
         <meta-data
           android:name="com.gcm.push.send_id"
           android:value="" />
@@ -86,4 +89,14 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+
+
 </manifest>

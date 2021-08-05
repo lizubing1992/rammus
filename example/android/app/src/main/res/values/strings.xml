@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">魔掌门</string>
+    <string name="alibaba_app_appkey">333462838</string>
+    <string name="alibaba_app_appsecret">a4de979ff4364db6b00a2db06d2badb5</string>
+    <string name="huawei_appId">appid=104397275</string>
+
+    <string name="mi_appId">2882303761519952355</string>
+    <string name="mi_appKey">5961995228355</string>
+
+    <string name="oppo_appKey">f38fa68f32954ef88121743a375b3650</string>
+    <string name="oppo_appSecret">ac55c1f8c51244ff96f7b39019198638</string>
+
+    <string name="meizu_appId">141897</string>
+    <string name="meizu_appKey">97ab06972a9748f787c1e868c973f7b9</string>
+
+    <string name="vivo_appId">105487379</string>
+    <string name="vivo_appKey">07c83548e0e74cf29d09ff4db11b64fe</string>
+</resources>

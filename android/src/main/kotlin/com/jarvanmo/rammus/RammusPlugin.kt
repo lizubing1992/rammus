@@ -26,6 +26,7 @@ class RammusPlugin(private val registrar: Registrar, private val methodChannel: 
         @JvmStatic
         fun registerWith(registrar: Registrar) {
             val channel = MethodChannel(registrar.messenger(), "com.jarvanmo/rammus")
+            Log.d(TAG, "registerWith----")
             RammusPushHandler.methodChannel = channel
             channel.setMethodCallHandler(RammusPlugin(registrar, channel))
         }
